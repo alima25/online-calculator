@@ -59,7 +59,6 @@
                 const expression = display.value;
                 if (!expression) return;
 
-                // Проверяем на недопустимые символы
                 if (/[^0-9+\-*/.]/.test(expression)) {
                     display.value = 'Ошибка';
                     return;
@@ -77,4 +76,5 @@
        
     </script>
 </body>
+
 </html>
