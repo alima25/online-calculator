@@ -82,7 +82,7 @@ button:hover {
     grid-column: span 2;
 }
 
-/* Адаптация под маленькие экраны */
+
 @media (max-width: 400px) {
     .display {
         font-size: 28px;
@@ -93,3 +93,4 @@ button:hover {
         padding: 18px;
     }
 }
+
